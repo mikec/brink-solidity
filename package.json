@@ -1,0 +1,33 @@
+{
+  "name": "brink-solidity",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "Mike Calvanese",
+    "url": "https://github.com/mikec"
+  },
+  "dependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contract-loader": "^0.6.1",
+    "@openzeppelin/contracts": "^2.5.0",
+    "@openzeppelin/test-environment": "^0.1.2",
+    "@openzeppelin/test-helpers": "^0.5.4",
+    "@truffle/debug-utils": "^4.1.1",
+    "chai": "^4.2.0",
+    "crypto-js": "^4.0.0",
+    "eth-lib": "^0.1.29",
+    "ethereumjs-abi": "^0.6.8",
+    "ethereumjs-tx": "^2.1.2",
+    "ethereumjs-util": "^7.0.0",
+    "left-pad": "^1.3.0",
+    "lodash": "^4.17.15",
+    "mocha": "^7.1.0",
+    "web3": "^1.2.7",
+    "web3-eth-abi": "^1.2.7"
+  },
+  "scripts": {
+    "compile": "openzeppelin compile",
+    "test": "mocha --exit --recursive",
+    "ganache": "scripts/ganache.sh"
+  }
+}
